@@ -19,18 +19,25 @@ export default function Navbar() {
         </div>
       </div>
       <div className="flex">
-        <img
-          className="clickable github-logo-nav"
-          src={githubLogo}
-          width="32px"
-          alt="Github logo"
-        />
-        <img
-          className="clickable"
-          src={linkedinLogo}
-          width="32px"
-          alt="LinkedIn logo"
-        />
+        <a href="https://github.com/AbdelrahmanHassib" target="_blank">
+          <img
+            className="clickable github-logo-nav"
+            src={githubLogo}
+            width="32px"
+            alt="Github logo"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/abdelrahman-hassib-261019174/"
+          target="_blank"
+        >
+          <img
+            className="clickable"
+            src={linkedinLogo}
+            width="32px"
+            alt="LinkedIn logo"
+          />
+        </a>
       </div>
     </section>
   );

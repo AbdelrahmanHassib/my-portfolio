@@ -13,18 +13,25 @@ export default function Footer() {
         Email: <br /> abdelrahmanhassib@gmail.com
       </h1>
       <div>
-        <img
-          className="clickable github-icon"
-          width="72px"
-          src={githubIcon}
-          alt="Github logo"
-        />
-        <img
-          className="clickable"
-          width="72px"
-          src={linkedinIcon}
-          alt="LinkedIn logo"
-        />
+        <a href="https://github.com/AbdelrahmanHassib" target="_blank">
+          <img
+            className="clickable github-icon"
+            width="72px"
+            src={githubIcon}
+            alt="Github logo"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/abdelrahman-hassib-261019174/"
+          target="_blank"
+        >
+          <img
+            className="clickable"
+            width="72px"
+            src={linkedinIcon}
+            alt="LinkedIn logo"
+          />
+        </a>
       </div>
     </section>
   );
