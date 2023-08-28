@@ -1,0 +1,16 @@
+.projects {
+    margin: 15.9em 0 20.56em;
+}
+
+.projects h1 {
+    font-size: 4rem;
+    margin-bottom: 1.45em;
+}
+
+.projects div {
+    display: grid;
+    grid-template-columns: 38.516% 38.516%;
+    grid-template-rows: 43.75em 43.75em;
+    row-gap: 6em;
+    column-gap: 13.75em;
+}

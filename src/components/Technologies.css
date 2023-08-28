@@ -1,0 +1,8 @@
+.tech-level-div {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tech-div {
+    width: fit-content;
+}

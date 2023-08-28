@@ -1,0 +1,29 @@
+.nav-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.875em 8.125em;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.links-div a {
+    font-size: 1.875rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.first-nav-div {
+    width: 64.5%;
+    justify-content: space-between;
+}
+
+.links-a {
+    margin: 0 3.26em;
+}

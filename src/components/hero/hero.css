@@ -1,0 +1,17 @@
+.hero-main h1{
+    font-size: 4rem;
+}
+
+.hero-main p {
+    color: #BCBCBC;
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin: 0.94em 0 2em 1.7em;
+}
+
+.hero-main button {
+    font-size: 1.75rem;
+    padding: 0.67em 2.3em;
+    border-radius: 2.96em;
+    margin-left: 3.9em;
+}

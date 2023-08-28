@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #0F1624;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    padding: 9.8125em 18.75em 20.5625em 12em;
+}
+
+.button-portfolio {
+    color: white;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    font-family: inherit;
+    font-weight: 600;
+}
