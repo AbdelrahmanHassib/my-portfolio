@@ -4,10 +4,10 @@ import "./Technologies.css";
 export default function Technologies() {
   const techs = [
     { name: "Html", level: "Advanced" },
-    { name: "CSS, Sass & Bootstrap", level: "Regular" },
+    { name: "CSS", level: "Advanced" },
     { name: "Javascript", level: "Regular" },
-    { name: "UI design in Figma", level: "Regular" },
     { name: "React", level: "Regular" },
+    { name: "UI design in Figma", level: "Regular" },
     { name: "Typescript", level: "Beginner" },
   ];
 

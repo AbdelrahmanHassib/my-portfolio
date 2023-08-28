@@ -1,5 +1,7 @@
 import React from "react";
 import "./Footer.css";
+import linkedinIcon from "../icons/linkedin-large.png";
+import githubIcon from "../icons/github-large.png";
 
 export default function Footer() {
   return (
@@ -14,13 +16,13 @@ export default function Footer() {
         <img
           className="clickable github-icon"
           width="72px"
-          src="src/icons/github-large.png"
+          src={githubIcon}
           alt="Github logo"
         />
         <img
           className="clickable"
           width="72px"
-          src="src/icons/linkedin-large.png"
+          src={linkedinIcon}
           alt="LinkedIn logo"
         />
       </div>

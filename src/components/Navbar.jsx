@@ -1,12 +1,15 @@
 import React from "react";
 import "../components/Navbar.css";
+import logoIcon from "../icons/logo.png";
+import linkedinLogo from "../icons/linkedin.png";
+import githubLogo from "../icons/github.png";
 
 export default function Navbar() {
   return (
     <section className="nav-div">
       <div className="flex first-nav-div">
         <div className="flex">
-          <img className="logo-icon" src="src/icons/logo.png" alt="logo icon" />
+          <img className="logo-icon" src={logoIcon} alt="logo icon" />
           <h2>Portfolio</h2>
         </div>
         <div className="flex links-div">
@@ -18,13 +21,13 @@ export default function Navbar() {
       <div className="flex">
         <img
           className="clickable github-logo-nav"
-          src="src/icons/github.png"
+          src={githubLogo}
           width="32px"
           alt="Github logo"
         />
         <img
           className="clickable"
-          src="src/icons/linkedin.png"
+          src={linkedinLogo}
           width="32px"
           alt="LinkedIn logo"
         />
