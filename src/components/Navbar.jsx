@@ -6,7 +6,7 @@ export default function Navbar() {
     <section className="nav-div">
       <div className="flex first-nav-div">
         <div className="flex">
-          <img src="src/icons/logo.png" style={{ marginRight: "0.8125em" }} />
+          <img className="logo-icon" src="src/icons/logo.png" alt="logo icon" />
           <h2>Portfolio</h2>
         </div>
         <div className="flex links-div">
@@ -17,12 +17,17 @@ export default function Navbar() {
       </div>
       <div className="flex">
         <img
-          className="clickable"
+          className="clickable github-logo-nav"
           src="src/icons/github.png"
           width="32px"
-          style={{ marginRight: "2em" }}
+          alt="Github logo"
         />
-        <img className="clickable" src="src/icons/linkedin.png" width="32px" />
+        <img
+          className="clickable"
+          src="src/icons/linkedin.png"
+          width="32px"
+          alt="LinkedIn logo"
+        />
       </div>
     </section>
   );

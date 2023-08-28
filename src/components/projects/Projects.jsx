@@ -13,8 +13,8 @@ export default function Projects() {
     <section className="projects">
       <h1>Projects</h1>
       <div>
-        {projectInfo.map((info) => {
-          return <Project title={info.title} />;
+        {projectInfo.map((info, i) => {
+          return <Project key={i} title={info.title} />;
         })}
       </div>
     </section>

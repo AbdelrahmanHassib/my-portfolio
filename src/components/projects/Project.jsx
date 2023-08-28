@@ -5,7 +5,7 @@ import projectImg from "../../assets/images/project-img.svg";
 export default function project({ title }) {
   return (
     <section className="project">
-      <img src={projectImg} />
+      <img src={projectImg} alt="Project screenshots" />
       <h4>{title}</h4>
       <div></div>
       <p>

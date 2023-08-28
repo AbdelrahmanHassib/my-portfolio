@@ -12,15 +12,16 @@ export default function Footer() {
       </h1>
       <div>
         <img
-          className="clickable"
+          className="clickable github-icon"
           width="72px"
-          style={{ marginRight: "4.0625em" }}
           src="src/icons/github-large.png"
+          alt="Github logo"
         />
         <img
           className="clickable"
           width="72px"
           src="src/icons/linkedin-large.png"
+          alt="LinkedIn logo"
         />
       </div>
     </section>

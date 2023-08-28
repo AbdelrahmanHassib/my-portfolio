@@ -1,8 +1,52 @@
+.tech-div h1{
+    font-size: 4rem;
+    margin-bottom: 2em;
+}
+
 .tech-level-div {
     justify-content: space-between;
     width: 100%;
+    padding: 0 4.125em 0 1.56em;
 }
 
-.tech-div {
-    width: fit-content;
+
+.tech-level-div h2 {
+    font-size: 2.25rem;
+}
+
+.tech-level-div h3 {
+    font-size: 1.5rem;
+}
+
+.linear-border-div {
+    width: 990px;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+}
+
+.technologies-border-div {
+    background-color: #162950;
+}
+
+.border-divs {
+    height: 2em;
+    border-radius: 5.2em;
+}
+
+.technologies-div {
+    margin-left: 6.75em;
+    margin-bottom: 3.44em;
+}
+
+.tech-div > h2 {
+    font-size: 3rem;
+    margin: 2.77em 0 1.7em 0;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 0.89em;
+    column-gap: 13.2%;
+    padding-left: 4.25em;
+    font-size: 2.25rem;
 }
