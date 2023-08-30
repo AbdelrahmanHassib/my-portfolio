@@ -20,7 +20,7 @@ export default function Technologies() {
     "RWD ",
   ];
   return (
-    <div className="tech-div">
+    <section id="technologies">
       <h1>Technologies</h1>
       <div>
         {techs.map((tech, i) => {
@@ -61,6 +61,6 @@ export default function Technologies() {
           })}
         </ul>
       </div>
-    </div>
+    </section>
   );
 }

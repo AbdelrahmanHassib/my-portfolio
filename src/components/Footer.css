@@ -10,3 +10,123 @@
 .github-icon {
     margin-right: 4.0625em;
 }
+
+.footer-icons {
+    width: 4.5em;
+}
+
+@media (max-width: 1800px) {
+
+    .footer-section {
+        padding: 0px 5em 5em;
+    }
+
+    .footer-section h1 {
+        font-size: 2rem;
+    }
+
+    .footer-icons {
+        width: 3.4em;
+    }
+
+    .github-icon {
+        margin-right: 2.5em;
+    }
+}
+
+@media (max-width: 1300px) {
+    .footer-section {
+        padding: 0px 3em 5em;
+    }
+
+    .footer-section h1 {
+        font-size: 1.7rem;
+    }
+
+    .footer-icons {
+        width: 2.7em;
+    }
+
+    .github-icon {
+        margin-right: 2em;
+    }
+}
+
+/* Laptop */
+@media (max-width: 1024px) {
+
+    .footer-section {
+        padding: 0px 2em 3em;
+    }
+
+    .footer-section h1 {
+        font-size: 1.3rem;
+    }
+
+    .footer-icons {
+        width: 2em;
+    }
+
+    .github-icon {
+        margin-right: 1.5em;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+
+    .footer-section {
+        padding: 0px 1.5em 3em;
+    }
+
+    .footer-section h1 {
+        font-size: 1rem;
+    }
+
+    .footer-icons {
+        width: 1.5em;
+    }
+
+    .github-icon {
+        margin-right: 1.1em;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    .footer-section {
+        padding: 0px 1.5em 2em;
+    }
+
+    .footer-section h1 {
+        font-size: 0.8rem;
+    }
+
+    .footer-icons {
+        width: 1.2em;
+    }
+
+    .github-icon {
+        margin-right: 1em;
+    }
+}
+
+/* Small Mobiles */
+@media (max-width: 500px) {
+    .footer-section {
+        padding: 0px 1em 2em;
+    }
+
+    .footer-section h1 {
+        font-size: 0.6rem;
+    }
+
+    .footer-icons {
+        width: 1em;
+    }
+
+    .github-icon {
+        margin-right: 0.7em;
+    }
+}

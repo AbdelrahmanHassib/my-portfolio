@@ -15,8 +15,7 @@ export default function Footer() {
       <div>
         <a href="https://github.com/AbdelrahmanHassib" target="_blank">
           <img
-            className="clickable github-icon"
-            width="72px"
+            className="clickable github-icon footer-icons"
             src={githubIcon}
             alt="Github logo"
           />
@@ -26,8 +25,7 @@ export default function Footer() {
           target="_blank"
         >
           <img
-            className="clickable"
-            width="72px"
+            className="clickable footer-icons"
             src={linkedinIcon}
             alt="LinkedIn logo"
           />

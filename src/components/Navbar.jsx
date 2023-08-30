@@ -7,18 +7,18 @@ import githubLogo from "../icons/github.png";
 export default function Navbar() {
   return (
     <section className="nav-div">
-      <div className="flex first-nav-div">
-        <div className="flex">
-          <img className="logo-icon" src={logoIcon} alt="logo icon" />
-          <h2>Portfolio</h2>
-        </div>
-        <div className="flex links-div">
-          <a>Projects</a>
-          <a className="links-a">Technologies</a>
-          <a>About me</a>
-        </div>
-      </div>
       <div className="flex">
+        <img className="logo-icon" src={logoIcon} alt="logo icon" />
+        <h2>Portfolio</h2>
+      </div>
+      <div className="flex links-div">
+        <a href="#projects">Projects</a>
+        <a className="links-a" href="#technologies">
+          Technologies
+        </a>
+        <a>About me</a>
+      </div>
+      <div className="flex navbar-icons">
         <a href="https://github.com/AbdelrahmanHassib" target="_blank">
           <img
             className="clickable github-logo-nav"

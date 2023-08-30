@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
 .main {
     background-color: #0F1624;
     color: white;
@@ -11,7 +20,7 @@
 }
 
 .hero {
-    padding: 9.8125em 18.75em 20.5625em 12em;
+    padding: 8.178% 15.625% 17.14% 10%;
 }
 
 .button-portfolio {
@@ -21,4 +30,25 @@
     background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
     font-family: inherit;
     font-weight: 600;
+}
+
+/* Laptop */
+@media (max-width: 1024px) {
+    .hero {
+        padding: 8% 10% 17% 10%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .hero {
+        padding: 8% 7% 17% 7%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 425px) {
+    .hero {
+        padding: 8% 5% 17% 5%;
+    }
 }

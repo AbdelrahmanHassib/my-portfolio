@@ -10,7 +10,7 @@ export default function Projects() {
     { title: "project 4" },
   ];
   return (
-    <section className="projects">
+    <section id="projects">
       <h1>Projects</h1>
       <div>
         {projectInfo.map((info, i) => {

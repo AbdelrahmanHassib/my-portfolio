@@ -7,6 +7,7 @@
 
 .project img {
     border-radius: 0.5em;
+    width: 100%;
 }
 
 .project h4 {
@@ -34,4 +35,79 @@
     font-size: 1.25rem;
     padding: 0.75em 2.6em;
     border-radius: 4.15em;
+}
+
+/* Project text */
+@media (max-width: 1650px) {
+    .project h4 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.7rem;
+        line-height: 88.5%;
+        margin: 0.69em 0;
+    }
+
+    .project p {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin: 0.89em 0;
+    }
+
+    .project button {
+        font-size: 1rem;
+        padding: 0.75em 2.6em;
+        border-radius: 4.15em;
+    }
+}
+
+/* Laptop */
+@media (max-width: 1024px) {
+
+    .project h4 {
+        font-size: 1.275rem;
+    }
+
+    .project p {
+        font-size: 1rem;
+    }
+
+    .project button {
+        font-size: 0.75rem;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+
+    .project h4 {
+        font-size: 1rem;
+    }
+
+    .project p {
+        font-size: 0.75rem;
+    }
+
+    .project button {
+        font-size: 0.6rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 580px) {
+
+    .project h4 {
+        font-size: 0.75rem;
+    }
+
+    .project p {
+        font-size: 0.6rem;
+    }
+
+    .project button {
+        font-size: 0.45rem;
+    }
+
+    .project {
+        padding: 1.2em 1.2em 1.5em;
+    }
 }

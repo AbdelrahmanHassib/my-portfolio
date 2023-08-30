@@ -1,16 +1,41 @@
-.projects {
+#projects {
     margin: 15.9em 0 20.56em;
 }
 
-.projects h1 {
+#projects h1 {
     font-size: 4rem;
     margin-bottom: 1.45em;
 }
 
-.projects div {
+#projects div {
     display: grid;
-    grid-template-columns: 38.516% 38.516%;
-    grid-template-rows: 43.75em 43.75em;
+    grid-template-columns: 1fr 1fr;
     row-gap: 6em;
-    column-gap: 13.75em;
+    column-gap: 15.4%;
+}
+
+@media (max-width: 1200px) {
+
+    #projects h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #projects h1 {
+        font-size: 2.25rem;
+    }
+}
+
+@media (max-width: 580px) {
+
+    #projects h1 {
+        font-size: 1.7rem;
+    }
+
+    #projects div {
+        display: flex;
+        flex-direction: column;
+    }
 }
